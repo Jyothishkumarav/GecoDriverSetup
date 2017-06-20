@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="2">
+  <test name="TestInChrome">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="com.selenium.test.init.TestNGMultiBrowserTest"/>
+    </classes>
+  </test> <!-- chrome -->
+  <test name="TestInIE">
+  <parameter name="browser" value="ie"></parameter>
+    <classes>
+      <class name="com.selenium.test.init.TestNGMultiBrowserTest"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->

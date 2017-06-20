@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="22373" started-at="2017-04-22T08:28:46Z" finished-at="2017-04-22T08:29:08Z">
+    <groups>
+    </groups>
+    <test name="TestInIE" duration-ms="18789" started-at="2017-04-22T08:28:46Z" finished-at="2017-04-22T08:29:04Z">
+      <class name="com.selenium.test.init.TestNGMultiBrowserTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.selenium.test.init.TestNGMultiBrowserTest@6e1567f1]" name="beforeTest" is-config="true" duration-ms="9328" started-at="2017-04-22T04:28:46Z" finished-at="2017-04-22T04:28:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="accountTest()[pri:0, instance:com.selenium.test.init.TestNGMultiBrowserTest@6e1567f1]" name="accountTest" duration-ms="3763" started-at="2017-04-22T04:28:55Z" finished-at="2017-04-22T04:28:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountTest -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.selenium.test.init.TestNGMultiBrowserTest@6e1567f1]" name="loginTest" duration-ms="4088" started-at="2017-04-22T04:28:59Z" finished-at="2017-04-22T04:29:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.selenium.test.init.TestNGMultiBrowserTest@6e1567f1]" name="afterTest" is-config="true" duration-ms="1589" started-at="2017-04-22T04:29:03Z" finished-at="2017-04-22T04:29:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.selenium.test.init.TestNGMultiBrowserTest -->
+    </test> <!-- TestInIE -->
+    <test name="TestInChrome" duration-ms="22373" started-at="2017-04-22T08:28:46Z" finished-at="2017-04-22T08:29:08Z">
+      <class name="com.selenium.test.init.TestNGMultiBrowserTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.selenium.test.init.TestNGMultiBrowserTest@57fffcd7]" name="beforeTest" is-config="true" duration-ms="11818" started-at="2017-04-22T04:28:46Z" finished-at="2017-04-22T04:28:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="accountTest()[pri:0, instance:com.selenium.test.init.TestNGMultiBrowserTest@57fffcd7]" name="accountTest" duration-ms="3376" started-at="2017-04-22T04:28:57Z" finished-at="2017-04-22T04:29:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountTest -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.selenium.test.init.TestNGMultiBrowserTest@57fffcd7]" name="loginTest" duration-ms="5986" started-at="2017-04-22T04:29:01Z" finished-at="2017-04-22T04:29:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.selenium.test.init.TestNGMultiBrowserTest@57fffcd7]" name="afterTest" is-config="true" duration-ms="1185" started-at="2017-04-22T04:29:07Z" finished-at="2017-04-22T04:29:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.selenium.test.init.TestNGMultiBrowserTest -->
+    </test> <!-- TestInChrome -->
+  </suite> <!-- Suite -->
+</testng-results>
